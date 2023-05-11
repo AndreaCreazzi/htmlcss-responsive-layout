@@ -5,7 +5,7 @@
 1200px */
 
 
-.container , .jumbo-container , .planning-container , .partners-container , .benefits-container , .about-container , .download-container{
+.container , .jumbo-container , .planning-container , .partners-container , .benefits-container , .about-container , .download-container , .banner-container{
     max-width: 1200px;
     margin: 0 auto;;
     flex-wrap: wrap;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 768px) {
     .container{
-        width: 554px;
+        width: 530px;
     }
 
     .col ul{
@@ -62,6 +62,10 @@
 
     .col-download{
         margin: 0 30px;
+    }
+
+    .col-bar{
+        margin: 10px 75px;
     }
 }
 
@@ -127,5 +131,9 @@
 
     .col-download{
         margin: 0 30px;
+    }
+
+    .col-bar{
+        margin: 10px 85px;
     }
 }
