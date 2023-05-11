@@ -17,13 +17,47 @@
         width: 975px;
     }
 }
+
 @media screen and (max-width: 768px) {
     .container{
         width: 554px;
     }
+    
+    .col ul{
+        display: none;
+    }
+
+    .col img{
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 250px;
+    }
+
+    .col .fa-bars{
+        display: block;
+        margin-top: 17px;
+        margin-left: 320px;
+    }
 }
+
 @media screen and (max-width: 576px) {
     .container{
         width: 100%;
+    }
+
+    .col ul{
+        display: none;
+    }
+
+    .col img{
+        height: 40px;
+        margin-top: 15px;
+        margin-right: 170px;
+    }
+
+    .col .fa-bars{
+        display: block;
+        margin-top: 17px;
+        margin-left: 240px;
     }
 }
