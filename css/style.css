@@ -10,16 +10,10 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-
 /* utility */
 header{
     height: 70px;
     background-color: #0084fd;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
 }
 
 .flex{
@@ -30,12 +24,18 @@ header{
     justify-content: center;
 }
 
+.j-spacebetween{
+    justify-content: space-between;
+}
+
 .a-center{
     align-items: center;
 }
 
 /* header */
-.row{
+
+/* navbar */
+.row-nav{
     height: 70px;
 }
 
@@ -46,6 +46,7 @@ header{
 .col img{
     height: 40px;
     margin-top: 15px;
+    margin-right: 180px;
 }
 
 .col ul{
@@ -70,7 +71,30 @@ header{
 }
 
 .col .fa-bars{
-font-size: 30px;
-color: white;
-display: none;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+/* main */
+
+/* css jumbotron */
+.col-jumbo-special{
+    flex-basis: 52%;
+    height: 300px;
+    border: 2px dashed black;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: #b5ddff;
+    border-radius: 20px;
+}
+
+.col-jumbo{
+    flex-basis: calc(85% / 3 - 40px);
+    height: 300px;
+    border: 2px dashed black;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color: #b5ddff;
+    border-radius: 20px;
 }
