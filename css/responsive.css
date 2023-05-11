@@ -5,7 +5,7 @@
 1200px */
 
 
-.container , .jumbo-container{
+.container , .jumbo-container , .planning-container , .partners-container , .benefits-container , .about-container , .download-container{
     max-width: 1200px;
     margin: 0 auto;;
     flex-wrap: wrap;
@@ -36,6 +36,32 @@
         display: block;
         margin-top: 17px;
         margin-left: 320px;
+    }
+
+    .planning-container{
+        display: block;
+    }
+
+    .col-extra{
+        margin: 10px 30px;
+    }
+
+    .col-work{
+        flex-basis: calc(100% / 2 - 30px);
+        margin: 10px 10px;
+
+    }
+
+    .left{
+        flex-basis: 51%;
+    }
+
+    .right{
+        flex-basis: 33%;
+    }
+
+    .col-download{
+        margin: 0 30px;
     }
 }
 
@@ -71,5 +97,35 @@
     
     .col-jumbo-special{
         height: 505px;
+    }
+
+    .planning-container{
+        display: block;
+    }
+
+    .col-plan{
+        margin: 0 125px;
+    }
+
+    .col-extra{
+        height: 340px;
+        margin: 10px 125px;
+    }
+
+    .col-work{
+        flex-basis: 100%;
+        margin: 10px 125px;
+    }
+
+    .left{
+        flex-basis: 50%;
+    }
+
+    .right{
+        flex-basis: 50%;
+    }
+
+    .col-download{
+        margin: 0 30px;
     }
 }
