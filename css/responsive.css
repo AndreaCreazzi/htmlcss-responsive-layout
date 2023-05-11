@@ -1,0 +1,11 @@
+/* responsive resolution
+576px
+768px
+992px
+1200px */
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
