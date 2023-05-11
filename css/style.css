@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* genrics */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* utility */
+header{
+    height: 70px;
+    background-color: #0084fd;
+}

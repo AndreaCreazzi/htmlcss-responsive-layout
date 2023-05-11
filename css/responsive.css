@@ -8,4 +8,22 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    height: 100vh;
+    background-color: beige;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 975px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 554px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
 }
